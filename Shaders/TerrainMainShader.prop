@@ -1,0 +1,48 @@
+Texture2D<float4> _MainTex[2] : register(t0, space0);
+Texture2D<float> _GreyTex[2] : register(t0, space1);
+Texture2D<uint> _IntegerTex[2] : register(t0, space2);
+TextureCube<float4> _Cubemap[2] : register(t0, space3);
+TextureCube<float> _GreyCubemap[2] : register(t0, space4);
+Texture2D<float4> _VirtualTex[2] : register(t0, space5);
+Texture2D<uint4> _IndirectTex : register(t0, space6);
+StructuredBuffer<VTIndices> _IndirectBuffer : register(t1, space6);
+
+
+cbuffer Per_Object_Buffer : register(b0)
+cbuffer Per_Camera_Buffer : register(b1)
+cbuffer LightCullCBuffer : register(b2)
+cbuffer TextureIndices : register(b3)
+cbuffer ProjectionShadowParams : register(b4)
+cbuffer VirtualTextureParams : register(b5)
+cbuffer HeightMapParams : register(b6)
+
+StructuredBuffer<LightCommand> _AllLight : register(t2, space6);
+StructuredBuffer<uint> _LightIndexBuffer : register(t3, space6);
+StructuredBuffer<ChunkData> _HeightMapDefaultBuffer : register(t4, space6);
+
+#pragma Geometry
+vertex VS
+fragment PS
+cull back
+ztest greater
+zwrite on
+blend off
+#end
+
+#pragma depth
+vertex VS_Depth
+fragment PS_Depth
+cull back
+ztest greater
+zwrite on
+blend off
+#end
+
+#pragma shadowmap
+vertex VS_Shadowmap
+fragment PS_Shadowmap
+cull front
+ztest greater
+zwrite on
+blend off
+#end
