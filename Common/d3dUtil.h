@@ -149,7 +149,7 @@ public:
     }
 
     static Microsoft::WRL::ComPtr<ID3DBlob> LoadBinary(const std::wstring& filename);
-	static std::array<const CD3DX12_STATIC_SAMPLER_DESC, 10> GetStaticSamplers();
+	static std::array<const CD3DX12_STATIC_SAMPLER_DESC, 12> GetStaticSamplers();
     static Microsoft::WRL::ComPtr<ID3D12Resource> CreateDefaultBuffer(
         ID3D12Device* device,
         ID3D12GraphicsCommandList* cmdList,

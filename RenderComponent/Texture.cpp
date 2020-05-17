@@ -304,6 +304,36 @@ public:
 	}
 };
 
+uint64_t Texture::GetSizeFromProperty(
+	ID3D12Device* device,
+	uint width,
+	uint height,
+	uint depth,
+	TextureDimension textureType,
+	uint mipCount,
+	DXGI_FORMAT format)
+{
+	mipCount = Max<uint>(1, mipCount);
+	if (textureType == TextureDimension::Cubemap)
+		depth = 6;
+	D3D12_RESOURCE_DESC texDesc;
+	ZeroMemory(&texDesc, sizeof(D3D12_RESOURCE_DESC));
+	texDesc.Dimension = textureType == TextureDimension::Tex3D ? D3D12_RESOURCE_DIMENSION_TEXTURE3D : D3D12_RESOURCE_DIMENSION_TEXTURE2D;
+	texDesc.Alignment = 0;
+	texDesc.Width = width;
+	texDesc.Height = height;
+	texDesc.DepthOrArraySize = depth;
+	texDesc.MipLevels = mipCount;
+	texDesc.Format = format;
+	texDesc.SampleDesc.Count = 1;
+	texDesc.SampleDesc.Quality = 0;
+	texDesc.Layout = D3D12_TEXTURE_LAYOUT_UNKNOWN;
+	texDesc.Flags = D3D12_RESOURCE_FLAG_NONE;
+	return device->GetResourceAllocationInfo(
+		0, 1, &texDesc).SizeInBytes;
+}
+
+
 Texture::Texture(
 	ID3D12Device* device,
 	ID3D12GraphicsCommandList* commandList,
@@ -330,7 +360,7 @@ Texture::Texture(
 	this->mipCount = mipCount;
 	D3D12_RESOURCE_DESC texDesc;
 	ZeroMemory(&texDesc, sizeof(D3D12_RESOURCE_DESC));
-	texDesc.Dimension = D3D12_RESOURCE_DIMENSION_TEXTURE2D;
+	texDesc.Dimension = textureType == TextureDimension::Tex3D ? D3D12_RESOURCE_DIMENSION_TEXTURE3D : D3D12_RESOURCE_DIMENSION_TEXTURE2D;
 	texDesc.Alignment = 0;
 	texDesc.Width = width;
 	texDesc.Height = height;
@@ -418,7 +448,7 @@ D3D12_RESOURCE_DESC Texture::CreateWithoutResource(
 	this->mipCount = data.mipCount;
 	D3D12_RESOURCE_DESC texDesc;
 	ZeroMemory(&texDesc, sizeof(D3D12_RESOURCE_DESC));
-	texDesc.Dimension = D3D12_RESOURCE_DIMENSION_TEXTURE2D;
+	texDesc.Dimension = type == TextureDimension::Tex3D ? D3D12_RESOURCE_DIMENSION_TEXTURE3D : D3D12_RESOURCE_DIMENSION_TEXTURE2D;
 	texDesc.Alignment = 0;
 	texDesc.Width = data.width;
 	texDesc.Height = data.height;

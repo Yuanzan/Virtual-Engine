@@ -1,0 +1,1950 @@
+﻿  cJSON.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+  CJsonObject.cpp
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\unordered_map(24): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\unordered_map(24): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\unordered_map(24): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\unordered_map(24): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\CJsonObject\CJsonObject.cpp(3642,1): fatal error C1004: 发现意外的文件尾
+  Camera.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\Common\Camera.cpp(205,1): fatal error C1004: 发现意外的文件尾
+  d3dApp.cpp
+C:\VirtualEngine\IRendererBase.h(59,1): warning C4099: “D3DAppDataPack”: 类型名称以前使用“class”现在使用的是“struct”
+C:\VirtualEngine\IRendererBase.h(58): message : 参见“D3DAppDataPack”的声明
+C:\VirtualEngine\IRendererBase.h(79,51): warning C4229: 使用了记时错误: 忽略数据上的修饰符
+C:\VirtualEngine\IRendererBase.h(85,89): warning C4229: 使用了记时错误: 忽略数据上的修饰符
+C:\VirtualEngine\IRendererBase.h(86,86): warning C4229: 使用了记时错误: 忽略数据上的修饰符
+C:\VirtualEngine\IRendererBase.h(87,92): warning C4229: 使用了记时错误: 忽略数据上的修饰符
+C:\VirtualEngine\IRendererBase.h(88,95): warning C4229: 使用了记时错误: 忽略数据上的修饰符
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\Common\d3dApp.cpp(587,1): fatal error C1004: 发现意外的文件尾
+  d3dUtil.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\d3dUtil.cpp(707,2): warning C4244: “参数”: 从“std::streamoff”转换到“SIZE_T”，可能丢失数据
+C:\VirtualEngine\Common\d3dUtil.cpp(747,29): warning C4244: “=”: 从“UINT64”转换到“LONG_PTR”，可能丢失数据
+C:\VirtualEngine\Common\d3dUtil.cpp(808,16): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+  GameTimer.cpp
+  Input.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\BitArray.h(38,28): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\Common\BitArray.h(38,28): error C2864: BitArray::bitOffsetArray: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+C:\VirtualEngine\Common\BitArray.h(48,2): message : 类型是“const UCHAR [8]”
+C:\VirtualEngine\Common\BitArray.h(49,28): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\Common\BitArray.h(49,28): error C2864: BitArray::bitOffsetReversedArray: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+C:\VirtualEngine\Common\BitArray.h(59,2): message : 类型是“const UCHAR [8]”
+  MathHelper.cpp
+  MObject.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+  Random.cpp
+C:\VirtualEngine\Common\Random.cpp(5,28): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  RuntimeStatic.cpp
+  StringUtility.cpp
+C:\VirtualEngine\Common\StringUtility.cpp(12,22): warning C4018: “<”: 有符号/无符号不匹配
+C:\VirtualEngine\Common\StringUtility.cpp(97,33): warning C4244: “参数”: 从“int64_t”转换到“const unsigned int”，可能丢失数据
+C:\VirtualEngine\Common\StringUtility.cpp(121,22): warning C4018: “<”: 有符号/无符号不匹配
+C:\VirtualEngine\Common\StringUtility.cpp(156,28): warning C4018: “<”: 有符号/无符号不匹配
+C:\VirtualEngine\Common\StringUtility.cpp(185,28): warning C4018: “<”: 有符号/无符号不匹配
+C:\VirtualEngine\Common\StringUtility.cpp(198,51): warning C4018: “<”: 有符号/无符号不匹配
+C:\VirtualEngine\Common\StringUtility.cpp(210,51): warning C4018: “<”: 有符号/无符号不匹配
+C:\VirtualEngine\Common\StringUtility.cpp(222,22): warning C4018: “<”: 有符号/无符号不匹配
+C:\VirtualEngine\Common\StringUtility.cpp(232,22): warning C4018: “<”: 有符号/无符号不匹配
+C:\VirtualEngine\Common\StringUtility.cpp(253,23): error C2440: “初始化”: 无法从“const _Elem *”转换为“char *”
+          with
+          [
+              _Elem=char
+          ]
+C:\VirtualEngine\Common\StringUtility.cpp(253,11): message : 转换丢失限定符
+C:\VirtualEngine\Common\StringUtility.cpp(262,23): error C2440: “初始化”: 无法从“const _Elem *”转换为“char *”
+          with
+          [
+              _Elem=char
+          ]
+C:\VirtualEngine\Common\StringUtility.cpp(262,11): message : 转换丢失限定符
+  TaskThread.cpp
+C:\VirtualEngine\Common\TypeWiper.h(13,40): error C2760: 语法错误: 意外标记 "<"，应为 ";"
+  JobBucket.cpp
+  JobHandle.cpp
+  JobNode.cpp
+  JobSystem.cpp
+  CameraMove.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+  Component.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+  DirectionalLight.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\BitArray.h(38,28): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\Common\BitArray.h(38,28): error C2864: BitArray::bitOffsetArray: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+C:\VirtualEngine\Common\BitArray.h(48,2): message : 类型是“const UCHAR [8]”
+C:\VirtualEngine\Common\BitArray.h(49,28): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\Common\BitArray.h(49,28): error C2864: BitArray::bitOffsetReversedArray: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+C:\VirtualEngine\Common\BitArray.h(59,2): message : 类型是“const UCHAR [8]”
+C:\VirtualEngine\LogicComponent\World.h(39,29): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\LogicComponent\World.h(39,45): error C2864: World::BLOCK_SIZE: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+C:\VirtualEngine\LogicComponent\World.h(39,45): message : 类型是“const double”
+C:\VirtualEngine\RenderComponent\RenderTexture.h(108,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(109,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(110,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(111,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(112,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(113,44): error C7525: 内联变量至少需要 "/std:c++17"
+  正在生成代码...
+  正在编译...
+  GRPRenderer.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\LogicComponent\GRPRenderer.cpp(43,1): fatal error C1004: 发现意外的文件尾
+  Transform.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\BitArray.h(38,28): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\Common\BitArray.h(38,28): error C2864: BitArray::bitOffsetArray: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+C:\VirtualEngine\Common\BitArray.h(48,2): message : 类型是“const UCHAR [8]”
+C:\VirtualEngine\Common\BitArray.h(49,28): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\Common\BitArray.h(49,28): error C2864: BitArray::bitOffsetReversedArray: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+C:\VirtualEngine\Common\BitArray.h(59,2): message : 类型是“const UCHAR [8]”
+C:\VirtualEngine\LogicComponent\World.h(39,29): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\LogicComponent\World.h(39,45): error C2864: World::BLOCK_SIZE: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+C:\VirtualEngine\LogicComponent\World.h(39,45): message : 类型是“const double”
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\LogicComponent\Transform.cpp(293,1): fatal error C1004: 发现意外的文件尾
+  IEnumerator.cpp
+  World.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\BitArray.h(38,28): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\Common\BitArray.h(38,28): error C2864: BitArray::bitOffsetArray: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+C:\VirtualEngine\Common\BitArray.h(48,2): message : 类型是“const UCHAR [8]”
+C:\VirtualEngine\Common\BitArray.h(49,28): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\Common\BitArray.h(49,28): error C2864: BitArray::bitOffsetReversedArray: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+C:\VirtualEngine\Common\BitArray.h(59,2): message : 类型是“const UCHAR [8]”
+C:\VirtualEngine\LogicComponent\World.h(39,29): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\LogicComponent\World.h(39,45): error C2864: World::BLOCK_SIZE: 带有类内初始化表达式的静态 数据成员 必须具有不可变的常量整型类型，或必须被指定为“内联”
+C:\VirtualEngine\LogicComponent\World.h(39,45): message : 类型是“const double”
+C:\VirtualEngine\Singleton\ShaderCompiler.h(6,19): warning C4099: “ID3D12Device”: 类型名称以前使用“struct”现在使用的是“class”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\d3d12.h(7821): message : 参见“ID3D12Device”的声明
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\LogicComponent\World.cpp(243,1): fatal error C1004: 发现意外的文件尾
+  CommandBuffer.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+  CSMComponent.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\PipelineComponent\CSMComponent.cpp(336,1): fatal error C1004: 发现意外的文件尾
+  CullTask.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\PipelineComponent\CullTask.cpp(31,1): fatal error C1004: 发现意外的文件尾
+  CustomRenderEvent.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\RenderTexture.h(108,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(109,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(110,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(111,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(112,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(113,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\PipelineComponent\CustomRenderEvent.cpp(38,1): fatal error C1004: 发现意外的文件尾
+  DepthComponent.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\PipelineComponent\DepthComponent.cpp(187,1): fatal error C1004: 发现意外的文件尾
+  LocalShadowComponent.cpp
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\unordered_map(24): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\unordered_map(24): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\unordered_map(24): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\unordered_map(24): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(6429,28): warning C4164: “__int2c”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(6640,42): warning C4164: “_bittestandcomplement”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(6641,35): warning C4164: “_bittestandset”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(6642,37): warning C4164: “_bittestandreset”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(6644,48): warning C4164: “_interlockedbittestandreset”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7295,32): warning C4164: “__incfsbyte”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7296,32): warning C4164: “__addfsbyte”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7297,32): warning C4164: “__incfsword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7298,32): warning C4164: “__addfsword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7299,33): warning C4164: “__incfsdword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7300,33): warning C4164: “__addfsdword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7323,30): warning C4164: “__cpuidex”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7366,33): warning C4164: “__readfsbyte”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7367,33): warning C4164: “__readfsword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7368,34): warning C4164: “__readfsdword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7369,34): warning C4164: “__writefsbyte”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7370,34): warning C4164: “__writefsword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7371,35): warning C4164: “__writefsdword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7382,30): warning C4164: “_mm_pause”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7438,33): warning C4164: “_mm_prefetch”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7466,30): warning C4164: “__readpmc”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7479,28): warning C4164: “__rdtsc”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(19916,31): warning C4164: “__fastfail”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\DirectXMathVector.inl(2313,29): warning C4177: #pragma“float_control”只应用在全局范围或命名空间范围中
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\DirectXMathVector.inl(2314,36): warning C4177: #pragma“float_control”只应用在全局范围或命名空间范围中
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\DirectXMathVector.inl(2362,28): warning C4177: #pragma“float_control”只应用在全局范围或命名空间范围中
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\PipelineComponent\LocalShadowComponent.cpp(298,1): fatal error C1004: 发现意外的文件尾
+  ReflectionComponent.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\PipelineComponent\ReflectionComponent.cpp(6,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+C:\VirtualEngine\PipelineComponent\ReflectionComponent.cpp(298,1): fatal error C1004: 发现意外的文件尾
+  PipelineComponent.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\PipelineComponent\PipelineComponent.cpp(83,1): fatal error C1004: 发现意外的文件尾
+  PipelineJsonData.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\PipelineComponent\PipelineJsonData.cpp(77,1): fatal error C1004: 发现意外的文件尾
+  PostProcessingComponent.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\PipelineComponent\PostProcessingComponent.cpp(355,1): fatal error C1004: 发现意外的文件尾
+  PrepareComponent.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\PipelineComponent\PrepareComponent.cpp(215,1): fatal error C1004: 发现意外的文件尾
+  RenderPipeline.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\RenderTexture.h(108,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(109,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(110,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(111,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(112,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(113,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\PipelineComponent\RenderPipeline.cpp(323,1): fatal error C1004: 发现意外的文件尾
+  SkyboxComponent.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\PipelineComponent\SkyboxComponent.cpp(8,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+C:\VirtualEngine\PipelineComponent\SkyboxComponent.cpp(404,1): fatal error C1004: 发现意外的文件尾
+  OpaquePostProcess.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\PipelineComponent\OpaquePostProcess.cpp(327,1): fatal error C1004: 发现意外的文件尾
+  TempRTAllocator.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\RenderTexture.h(108,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(109,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(110,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(111,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(112,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(113,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\PipelineComponent\TempRTAllocator.cpp(134,1): fatal error C1004: 发现意外的文件尾
+  ThreadCommand.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\atomic(134): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\atomic(134): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\atomic(134): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\atomic(134): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\PipelineComponent\ThreadCommand.cpp(136,1): fatal error C1004: 发现意外的文件尾
+  正在生成代码...
+  正在编译...
+  VolumetricComponent.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\PipelineComponent\VolumetricComponent.cpp(223,1): fatal error C1004: 发现意外的文件尾
+  CBufferPool.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\RenderComponent\CBufferPool.cpp(46,1): fatal error C1004: 发现意外的文件尾
+  TextureBuddyAllocator.cpp
+  BuddyTextureAllocator.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\RenderComponent\BuddyTextureAllocator.cpp(2,1): fatal error C1004: 发现意外的文件尾
+  CommandSignature.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\RenderComponent\Utility\CommandSignature.cpp(22,1): fatal error C1004: 发现意外的文件尾
+  ComputeShader.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\RenderComponent\ComputeShader.cpp(419,1): fatal error C1004: 发现意外的文件尾
+  DescriptorHeap.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+  ReadbackBuffer.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\RenderComponent\ReadbackBuffer.cpp(39,1): fatal error C1004: 发现意外的文件尾
+  GRPRenderManager.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\RenderComponent\GRPRenderManager.cpp(621,1): fatal error C1004: 发现意外的文件尾
+  IGPUResource.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\RenderComponent\IGPUResource.cpp(22,1): fatal error C1004: 发现意外的文件尾
+  ITexture.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\RenderComponent\ITexture.cpp(12,1): fatal error C1004: 发现意外的文件尾
+  Mesh.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\RenderComponent\Mesh.cpp(661,1): fatal error C1004: 发现意外的文件尾
+  MeshRenderer.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\RenderComponent\MeshRenderer.cpp(46,1): fatal error C1004: 发现意外的文件尾
+  PBRMaterial.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\RenderComponent\PBRMaterial.cpp(200,1): fatal error C1004: 发现意外的文件尾
+  ReflectionProbe.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\RenderComponent\ReflectionProbe.cpp(119,1): fatal error C1004: 发现意外的文件尾
+  RenderCommand.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\atomic(134): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\atomic(134): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\atomic(134): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\atomic(134): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\RenderComponent\RenderCommand.cpp(55,1): fatal error C1004: 发现意外的文件尾
+  RenderTexture.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\RenderTexture.h(108,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(109,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(110,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(111,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(112,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\RenderComponent\RenderTexture.h(113,44): error C7525: 内联变量至少需要 "/std:c++17"
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\RenderComponent\RenderTexture.cpp(579,1): fatal error C1004: 发现意外的文件尾
+  Shader.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\RenderComponent\Shader.cpp(399,1): fatal error C1004: 发现意外的文件尾
+  ShaderIO.cpp
+C:\VirtualEngine\RenderComponent\Utility\ShaderIO.h(2,10): fatal error C1083: 无法打开包括文件: “../Common/d3dUtil.h”: No such file or directory
+  Skybox.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\RenderComponent\Skybox.cpp(80,1): fatal error C1004: 发现意外的文件尾
+  正在生成代码...
+  正在编译...
+  StructuredBuffer.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\RenderComponent\StructuredBuffer.cpp(86,1): fatal error C1004: 发现意外的文件尾
+  Texture.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\RenderComponent\Texture.cpp(609,1): fatal error C1004: 发现意外的文件尾
+  TextureHeap.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+  TransitionBarrierBuffer.cpp
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\unordered_map(24): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\unordered_map(24): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\unordered_map(24): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\unordered_map(24): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(6429,28): warning C4164: “__int2c”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(6640,42): warning C4164: “_bittestandcomplement”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(6641,35): warning C4164: “_bittestandset”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(6642,37): warning C4164: “_bittestandreset”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(6644,48): warning C4164: “_interlockedbittestandreset”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7295,32): warning C4164: “__incfsbyte”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7296,32): warning C4164: “__addfsbyte”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7297,32): warning C4164: “__incfsword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7298,32): warning C4164: “__addfsword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7299,33): warning C4164: “__incfsdword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7300,33): warning C4164: “__addfsdword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7323,30): warning C4164: “__cpuidex”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7366,33): warning C4164: “__readfsbyte”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7367,33): warning C4164: “__readfsword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7368,34): warning C4164: “__readfsdword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7369,34): warning C4164: “__writefsbyte”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7370,34): warning C4164: “__writefsword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7371,35): warning C4164: “__writefsdword”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7382,30): warning C4164: “_mm_pause”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7438,33): warning C4164: “_mm_prefetch”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7466,30): warning C4164: “__readpmc”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(7479,28): warning C4164: “__rdtsc”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winnt.h(19916,31): warning C4164: “__fastfail”: 未声明的内部函数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\DirectXMathVector.inl(2313,29): warning C4177: #pragma“float_control”只应用在全局范围或命名空间范围中
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\DirectXMathVector.inl(2314,36): warning C4177: #pragma“float_control”只应用在全局范围或命名空间范围中
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\DirectXMathVector.inl(2362,28): warning C4177: #pragma“float_control”只应用在全局范围或命名空间范围中
+C:\VirtualEngine\RenderComponent\TransitionBarrierBuffer.cpp(175,1): fatal error C1004: 发现意外的文件尾
+  UploadBuffer.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\RenderComponent\UploadBuffer.cpp(65,1): fatal error C1004: 发现意外的文件尾
+  BinaryAllocator.cpp
+C:\VirtualEngine\RenderComponent\Utility\BinaryAllocator.cpp(12,45): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+C:\VirtualEngine\RenderComponent\Utility\BinaryAllocator.cpp(72,29): warning C4018: “<”: 有符号/无符号不匹配
+C:\VirtualEngine\RenderComponent\Utility\BinaryAllocator.cpp(107,17): warning C4244: “参数”: 从“int64_t”转换到“const unsigned int”，可能丢失数据
+  AssetDatabase.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\ResourceManagement\AssetDatabase.cpp(162,1): fatal error C1004: 发现意外的文件尾
+  AssetReference.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\ResourceManagement\AssetReference.cpp(159,1): fatal error C1004: 发现意外的文件尾
+  Scene.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\ResourceManagement\Scene.cpp(70,1): fatal error C1004: 发现意外的文件尾
+  ColorUtility.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Singleton\ColorUtility.cpp(94,11): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  FrameResource.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\Singleton\FrameResource.cpp(189,1): fatal error C1004: 发现意外的文件尾
+  Graphics.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\Singleton\Graphics.cpp(464,1): fatal error C1004: 发现意外的文件尾
+  MathLib.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Singleton\MathLib.h(5,35): warning C4305: “初始化”: 从“double”到“float”截断
+C:\VirtualEngine\Singleton\MathLib.h(6,31): warning C4305: “初始化”: 从“double”到“float”截断
+C:\VirtualEngine\Singleton\MathLib.h(18,39): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\sstream(20): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Singleton\MathLib.cpp(501,1): fatal error C1004: 发现意外的文件尾
+  MeshLayout.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+  PSOContainer.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Singleton\PSOContainer.cpp(111,1): fatal error C1004: 发现意外的文件尾
+  ShaderCompiler.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Singleton\ShaderCompiler.h(6,19): warning C4099: “ID3D12Device”: 类型名称以前使用“struct”现在使用的是“class”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\d3d12.h(7821): message : 参见“ID3D12Device”的声明
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\Singleton\ShaderCompiler.cpp(226,1): fatal error C1004: 发现意外的文件尾
+  ShaderID.cpp
+  ShaderUniforms.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Singleton\ShaderUniforms.cpp(391,1): fatal error C1004: 发现意外的文件尾
+  Uber.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(26,25): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(33,52): warning C4244: “参数”: 从“const uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\RenderComponent\UploadBuffer.h(40,73): warning C4244: “参数”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\Uber.cpp(4,1): fatal error C1004: 发现意外的文件尾
+  VEngine.cpp
+C:\VirtualEngine\Common\DXMath\Common.h(70,7): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\VirtualEngine\Common\DXMath\Common.h(70,46): error C3861: “_BitScanForward64”: 找不到标识符
+C:\VirtualEngine\Common\MetaLib.h(196,43): error C2760: 语法错误: 意外标记 ","，应为 ";"
+C:\VirtualEngine\Common\MetaLib.h(202,43): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,26): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,43): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,45): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(303,48): error C2275: “int32_t”: 将此类型用作表达式非法
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\stdint.h(20): message : 参见“int32_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(303,56): error C2146: 语法错误: 缺少“)”(在标识符“p”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(304,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(332,39): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,58): error C2065: “a”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2988: 不可识别的模板声明/定义
+C:\VirtualEngine\Common\MetaLib.h(332,56): error C2059: 语法错误:“const”
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\VirtualEngine\Common\MetaLib.h(333,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+C:\VirtualEngine\Common\MetaLib.h(360,56): error C2039: "remove_cvref_t": 不是 "std" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\mutex(30): message : 参见“std”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2065: “remove_cvref_t”: 未声明的标识符
+C:\VirtualEngine\Common\MetaLib.h(360,34): error C2974: 'std::remove_pointer_t' : 模板 对于 '_Ty'是无效参数，应为类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\type_traits(294): message : 参见“std::remove_pointer_t”的声明
+C:\VirtualEngine\Common\MetaLib.h(360,74): error C2062: 意外的类型“unknown-type”
+C:\VirtualEngine\Common\MetaLib.h(363,1): error C2631: “DefaultType”: 别名模板中不能定义类或枚举
+C:\VirtualEngine\Common\Pool.h(77,46): error C2059: 语法错误:“)”
+C:\VirtualEngine\VEngine.cpp(315,1): fatal error C1004: 发现意外的文件尾
+  正在生成代码...
+C:\VirtualEngine\RenderComponent\Utility\BinaryAllocator.cpp(87): warning C4715: “BinaryAllocator::TryAllocate”: 不是所有的控件路径都返回值

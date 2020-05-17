@@ -95,6 +95,15 @@ public:
 		TextureHeap* placedHeap = nullptr,
 		size_t placedOffset = 0
 	);
+	static uint64_t GetSizeFromProperty(
+		ID3D12Device* device,
+		uint width,
+		uint height,
+		uint depth,
+		TextureDimension textureType,
+		uint mipCount,
+		DXGI_FORMAT format);
+	
 	bool IsLoaded() const { return loaded; }
 	virtual void BindSRVToHeap(const DescriptorHeap* targetHeap, UINT index, ID3D12Device* device) const;
 };

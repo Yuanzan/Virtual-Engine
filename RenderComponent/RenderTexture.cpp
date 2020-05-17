@@ -132,7 +132,7 @@ void RenderTexture::SetUAV(ID3D12GraphicsCommandList* commandList, bool value)
 		commandList->ResourceBarrier(1, &result);
 }
 */
-size_t RenderTexture::GetSizeFromProperty(
+uint64_t RenderTexture::GetSizeFromProperty(
 	ID3D12Device* device,
 	UINT width,
 	UINT height,
@@ -230,7 +230,7 @@ RenderTexture::RenderTexture(
 	UINT mipCount,
 	RenderTextureState initState,
 	TextureHeap* targetHeap,
-	size_t placedOffset,
+	uint64_t placedOffset,
 	float clearColor
 ) : ITexture(),
 usage(rtFormat.usage),

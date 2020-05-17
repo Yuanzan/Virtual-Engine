@@ -1,13 +1,16 @@
-#include "BuddyAllocator.h"
+#include "BinaryAllocator.h"
 #include <algorithm>
-BuddyAllocator::BuddyAllocator(
+#include <stdint.h>
+BinaryAllocator::BinaryAllocator(
 	uint32_t maximumLayer) :
 	usefulNodes(maximumLayer)
 {
+	maximumLayer = std::max<uint32_t>({ maximumLayer, 1 });
 	allNodesCount = (1 << maximumLayer) - 1;
 	nodes = new BinaryTreeNode[allNodesCount];
 	uint indexOffset = 0;
-	SetTreeNode(nullptr, 0, maximumLayer, indexOffset);
+	uint64_t fullSize = 1 << (maximumLayer - 1);
+	SetTreeNode(nullptr, fullSize, 0, 0, maximumLayer, indexOffset);
 	for (size_t i = 1; i < usefulNodes.size(); ++i)
 	{
 		usefulNodes[i].reserve(std::max({ (1 << i) / 2 , 1}));
@@ -15,8 +18,10 @@ BuddyAllocator::BuddyAllocator(
 	usefulNodes[0].push_back(nodes);
 }
 
-BuddyAllocator::BinaryTreeNode* BuddyAllocator::SetTreeNode(
+BinaryAllocator::BinaryTreeNode* BinaryAllocator::SetTreeNode(
 	BinaryTreeNode* parentNode,
+	uint64_t size,
+	uint64_t offset,
 	uint layer,
 	uint layerCount,
 	uint& indexOffset)
@@ -26,6 +31,9 @@ BuddyAllocator::BinaryTreeNode* BuddyAllocator::SetTreeNode(
 	currentNode->vectorIndex = -1;
 	currentNode->parentNode = parentNode;
 	currentNode->layer = layer;
+	currentNode->size = size;
+	currentNode->offset = offset;
+	uint64_t subSize = size / 2;
 	//Is last level
 	if (layer == layerCount - 1)
 	{
@@ -37,11 +45,15 @@ BuddyAllocator::BinaryTreeNode* BuddyAllocator::SetTreeNode(
 		layer++;
 		currentNode->leftNode = SetTreeNode(
 			currentNode,
+			subSize,
+			offset,
 			layer,
 			layerCount,
 			indexOffset);
 		currentNode->rightNode = SetTreeNode(
 			currentNode,
+			subSize,
+			offset + subSize,
 			layer,
 			layerCount,
 			indexOffset);
@@ -49,7 +61,7 @@ BuddyAllocator::BinaryTreeNode* BuddyAllocator::SetTreeNode(
 	return currentNode;
 }
 
-bool BuddyAllocator::TryAllocate(uint targetLevel, AllocatedChunkHandle& result)
+bool BinaryAllocator::TryAllocate(uint targetLevel, AllocatedChunkHandle& result)
 {
 	int startLevel = targetLevel;
 	for (; startLevel >= 0; --startLevel)
@@ -74,12 +86,12 @@ bool BuddyAllocator::TryAllocate(uint targetLevel, AllocatedChunkHandle& result)
 	usefulNodes[targetLevel].erase(ite);
 }
 
-BuddyAllocator::~BuddyAllocator()
+BinaryAllocator::~BinaryAllocator()
 {
 	delete[] nodes;
 }
 
-void BuddyAllocator::ReturnChunk(BinaryTreeNode* node)
+void BinaryAllocator::ReturnChunk(BinaryTreeNode* node)
 {
 	auto& vec = usefulNodes[node->layer];
 	if (node->parentNode)
@@ -111,7 +123,7 @@ void BuddyAllocator::ReturnChunk(BinaryTreeNode* node)
 	}
 }
 
-void BuddyAllocator::Return(AllocatedChunkHandle target)
+void BinaryAllocator::Return(AllocatedChunkHandle target)
 {
 	ReturnChunk(target.node);
 }

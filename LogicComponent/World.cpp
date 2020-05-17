@@ -43,10 +43,10 @@ namespace WorldTester
 	DirectionalLight* sun;
 }
 using namespace WorldTester;
+#include "../RenderComponent/RenderTexture.h"
 World::World(ID3D12GraphicsCommandList* commandList, ID3D12Device* device) :
 	allTransformsPtr(500)
 {
-
 	allCameras.reserve(10);
 	current = this;
 	mainCamera = ObjectPtr< Camera>::MakePtr(new Camera(device, Camera::CameraRenderPath::DefaultPipeline));

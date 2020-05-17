@@ -29,8 +29,6 @@ private:
 	
 public:
 	TransitionBarrierBuffer();
-	//void AddCommand(D3D12_RESOURCE_STATES beforeState, D3D12_RESOURCE_STATES afterState, ID3D12Resource* resource);
-	//void ExecuteCommand(ID3D12GraphicsCommandList* commandList);
 	void RegistInitState(D3D12_RESOURCE_STATES initState, ID3D12Resource* resource);
 	void UpdateState(D3D12_RESOURCE_STATES newState, ID3D12Resource* resource);
 	void AddCommand(D3D12_RESOURCE_STATES beforeState, D3D12_RESOURCE_STATES afterState, ID3D12Resource* resource);

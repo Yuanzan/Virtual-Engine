@@ -169,7 +169,7 @@ public:
 			});
 
 		rp->PrepareRendering(data, pipelineJobSys.GetPtr(), bucketArray);
-		pipelineJobSys->Wait();//Last Frame's Logic Stop Here
+		
 		HRESULT crashResult = pack.md3dDevice->GetDeviceRemovedReason();
 		if (crashResult != S_OK)
 		{
@@ -177,8 +177,8 @@ public:
 		}
 		Input::UpdateFrame(int2(-1, -1));//Update Input Buffer
 	//	SetCursorPos(mClientWidth / 2, mClientHeight / 2);
-
 		data.resource->UpdateBeforeFrame(data.fence);//Flush CommandQueue
+		pipelineJobSys->Wait();//Last Frame's Logic Stop Here
 		pipelineJobSys->ExecuteBucket(bucketArray.data(), bucketArray.size());					//Execute Tasks
 		HRESULT presentResult = rp->ExecuteRendering(data, pack.mSwapChain.Get());
 #if defined(DEBUG) | defined(_DEBUG)

@@ -11,6 +11,8 @@ enum class TextureDimension : uint
 class DescriptorHeap;
 class ITexture : public IGPUResource
 {
+protected:
+	uint64_t resourceSize = 0;
 private:
 	uint srvDescID = 0;
 protected:
@@ -19,13 +21,12 @@ protected:
 	UINT mWidth = 0;
 	UINT mHeight = 0;
 	UINT mipCount = 1;
-	size_t resourceSize = 0;
 	TextureDimension dimension;
 	ITexture();
 	~ITexture();
 public:
 	
-	size_t GetResourceSize() const
+	uint64_t GetResourceSize() const
 	{
 		return resourceSize;
 	}

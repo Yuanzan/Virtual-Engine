@@ -3,9 +3,9 @@
 class FrameResource;
 struct StructuredBufferElement
 {
-	size_t stride;
-	size_t elementCount;
-	static constexpr StructuredBufferElement Get(size_t stride, size_t elementCount)
+	uint64_t stride;
+	uint64_t elementCount;
+	static constexpr StructuredBufferElement Get(uint64_t stride, uint64_t elementCount)
 	{
 		return { stride, elementCount };
 	}
@@ -22,7 +22,7 @@ class StructuredBuffer final : public IGPUResource
 {
 private:
 	std::vector<StructuredBufferElement> elements;
-	std::vector<size_t> offsets;
+	std::vector<uint64_t> offsets;
 public:
 	StructuredBuffer(
 		ID3D12Device* device,
@@ -31,10 +31,10 @@ public:
 		bool isIndirect = false,
 		bool isReadable = false
 	);
-	size_t GetStride(UINT index) const;
-	size_t GetElementCount(UINT index) const;
+	uint64_t GetStride(UINT index) const;
+	uint64_t GetElementCount(UINT index) const;
 	D3D12_GPU_VIRTUAL_ADDRESS GetAddress(UINT element, UINT index) const;
-	size_t GetAddressOffset(UINT element, UINT index) const;
+	uint64_t GetAddressOffset(UINT element, UINT index) const;
 	void TransformBufferState(ID3D12GraphicsCommandList* commandList, StructuredBufferState beforeState, StructuredBufferState afterState) const;
 };
 /*

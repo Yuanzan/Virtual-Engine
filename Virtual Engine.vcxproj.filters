@@ -248,13 +248,16 @@
     <ClCompile Include="RenderComponent\ReadbackBuffer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="RenderComponent\Utility\BuddyAllocator.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="RenderComponent\Utility\CommandSignature.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="RenderComponent\Utility\ShaderIO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent\Utility\BinaryAllocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent\BuddyTextureAllocator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -607,9 +610,6 @@
     <ClInclude Include="RenderComponent\ReadbackBuffer.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="RenderComponent\Utility\BuddyAllocator.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="RenderComponent\Utility\CullingMask.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -617,6 +617,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="RenderComponent\Utility\ShaderIO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent\Utility\BinaryAllocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent\BuddyTextureAllocator.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

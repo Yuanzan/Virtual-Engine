@@ -113,7 +113,7 @@ public:
 	inline static const D3D12_RESOURCE_STATES CopyDestState = D3D12_RESOURCE_STATE_COPY_DEST;
 
 	uint GetGlobalUAVDescIndex(uint mipLevel) const;
-	static size_t GetSizeFromProperty(
+	static uint64_t GetSizeFromProperty(
 		ID3D12Device* device,
 		UINT width,
 		UINT height,
@@ -132,7 +132,7 @@ public:
 		UINT mipCount,
 		RenderTextureState initState = RenderTextureState::Render_Target,
 		TextureHeap* targetHeap = nullptr,
-		size_t placedOffset = 0,
+		uint64_t placedOffset = 0,
 		float clearColor = 0
 	);
 	~RenderTexture();

@@ -1,6 +1,6 @@
 #include "UploadBuffer.h"
 #include "../Singleton/FrameResource.h"
-UploadBuffer::UploadBuffer(ID3D12Device* device, UINT elementCount, bool isConstantBuffer, size_t stride)
+UploadBuffer::UploadBuffer(ID3D12Device* device, UINT elementCount, bool isConstantBuffer, uint64_t stride)
 {
 	mIsConstantBuffer = isConstantBuffer;
 	// Constant buffer elements need to be multiples of 256 bytes.
@@ -33,7 +33,7 @@ UploadBuffer::UploadBuffer(ID3D12Device* device, UINT elementCount, bool isConst
 	// the resource while it is in use by the GPU (so we must use synchronization techniques).
 }
 
-void UploadBuffer::Create(ID3D12Device* device, UINT elementCount, bool isConstantBuffer, size_t stride)
+void UploadBuffer::Create(ID3D12Device* device, UINT elementCount, bool isConstantBuffer, uint64_t stride)
 {
 	mIsConstantBuffer = isConstantBuffer;
 	// Constant buffer elements need to be multiples of 256 bytes.

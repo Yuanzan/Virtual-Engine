@@ -586,7 +586,7 @@ bool d3dUtil::IsKeyDown(int vkeyCode)
 	return (GetAsyncKeyState(vkeyCode) & 0x8000) != 0;
 }
 
-std::array<const CD3DX12_STATIC_SAMPLER_DESC, 10> d3dUtil::GetStaticSamplers()
+std::array<const CD3DX12_STATIC_SAMPLER_DESC, 12> d3dUtil::GetStaticSamplers()
 {
 	// Applications usually only need a handful of samplers.  So just define them all up front
 	// and keep them available as part of the root signature.  
@@ -670,12 +670,29 @@ std::array<const CD3DX12_STATIC_SAMPLER_DESC, 10> d3dUtil::GetStaticSamplers()
 		16,
 		D3D12_COMPARISON_FUNC_LESS); // addressW
 
+	const CD3DX12_STATIC_SAMPLER_DESC mipLinearPointClamp(
+		10,
+		D3D12_FILTER_MIN_MAG_POINT_MIP_LINEAR,
+		D3D12_TEXTURE_ADDRESS_MODE_CLAMP,  // addressU
+		D3D12_TEXTURE_ADDRESS_MODE_CLAMP,  // addressV
+		D3D12_TEXTURE_ADDRESS_MODE_CLAMP,
+		0,
+		16);
+
+	const CD3DX12_STATIC_SAMPLER_DESC mipLinearPointWrap(
+		11,
+		D3D12_FILTER_MIN_MAG_POINT_MIP_LINEAR,
+		D3D12_TEXTURE_ADDRESS_MODE_WRAP,  // addressU
+		D3D12_TEXTURE_ADDRESS_MODE_WRAP,  // addressV
+		D3D12_TEXTURE_ADDRESS_MODE_WRAP,
+		0,
+		16);
 
 	return {
 		pointWrap, pointClamp,
 		bilinearWrap, bilinearClamp,
 		trilinearWrap, trilinearClamp,
-		anisotropicWrap, anisotropicClamp, linearShadowClamp, linearCubemapShadowClamp };
+		anisotropicWrap, anisotropicClamp, linearShadowClamp, linearCubemapShadowClamp, mipLinearPointClamp, mipLinearPointWrap };
 }
 
 ComPtr<ID3DBlob> d3dUtil::LoadBinary(const std::wstring& filename)

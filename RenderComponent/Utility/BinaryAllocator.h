@@ -7,12 +7,14 @@ typedef uint32_t uint;
 typedef uint64_t uint64;
 
 
-class BuddyAllocator
+class BinaryAllocator
 {
 public:
 	struct BinaryTreeNode
 	{
 		int64_t vectorIndex;
+		uint64_t size;
+		uint64_t offset;
 		BinaryTreeNode* parentNode;
 		BinaryTreeNode* leftNode;
 		BinaryTreeNode* rightNode;
@@ -20,9 +22,18 @@ public:
 	};
 	struct AllocatedChunkHandle
 	{
-		friend class BuddyAllocator;
+		friend class BinaryAllocator;
 	private:
 		BinaryTreeNode* node;
+	public:
+		uint64_t GetSize() const
+		{
+			return node->size;
+		}
+		uint64_t GetOffset() const
+		{
+			return node->offset;
+		}
 	};
 private:
 	BinaryTreeNode* nodes;
@@ -30,6 +41,8 @@ private:
 	std::vector<std::vector<BinaryTreeNode*>> usefulNodes;
 	BinaryTreeNode* SetTreeNode(
 		BinaryTreeNode* parentNode,
+		uint64_t size,
+		uint64_t offset,
 		uint layer,
 		uint layerCount,
 		uint& indexOffset);
@@ -48,8 +61,8 @@ public:
 	///////////////////
 	bool TryAllocate(uint targetLevel, AllocatedChunkHandle& result);
 	void Return(AllocatedChunkHandle target);
-	BuddyAllocator(
+	BinaryAllocator(
 		uint32_t maximumLayer);
-	~BuddyAllocator();
+	~BinaryAllocator();
 };
-using BuddyAllocHandle = BuddyAllocator::AllocatedChunkHandle;
+using BuddyAllocHandle = BinaryAllocator::AllocatedChunkHandle;

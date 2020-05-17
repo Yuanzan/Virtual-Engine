@@ -8,6 +8,9 @@ SamplerState trilinearWrapSampler  : register(s4);
 SamplerState trilinearClampSampler  : register(s5);
 SamplerState anisotropicWrapSampler  : register(s6);
 SamplerState anisotropicClampSampler  : register(s7);
+SamplerState pointClampSampler_linearMip : register(s10);
+SamplerState pointWrapSampler_linearMip : register(s11);
+
 SamplerComparisonState linearShadowSampler : register(s8);      //tex.SampleCmpLevelZero(linearShadowSampler, uv, testZ)
 SamplerComparisonState cubemapShadowSampler : register(s9);
 

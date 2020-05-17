@@ -216,6 +216,7 @@
     <ClCompile Include="PipelineComponent\ThreadCommand.cpp" />
     <ClCompile Include="PipelineComponent\VolumetricComponent.cpp" />
     <ClCompile Include="RenderComponent\CBufferPool.cpp" />
+    <ClCompile Include="RenderComponent\BuddyTextureAllocator.cpp" />
     <ClCompile Include="RenderComponent\Utility\CommandSignature.cpp" />
     <ClCompile Include="RenderComponent\ComputeShader.cpp" />
     <ClCompile Include="RenderComponent\DescriptorHeap.cpp" />
@@ -237,7 +238,7 @@
     <ClCompile Include="RenderComponent\TextureHeap.cpp" />
     <ClCompile Include="RenderComponent\TransitionBarrierBuffer.cpp" />
     <ClCompile Include="RenderComponent\UploadBuffer.cpp" />
-    <ClCompile Include="RenderComponent\Utility\BuddyAllocator.cpp" />
+    <ClCompile Include="RenderComponent\Utility\BinaryAllocator.cpp" />
     <ClCompile Include="ResourceManagement\AssetDatabase.cpp" />
     <ClCompile Include="ResourceManagement\AssetReference.cpp" />
     <ClCompile Include="ResourceManagement\Scene.cpp" />
@@ -331,6 +332,7 @@
     <ClInclude Include="PipelineComponent\ThreadCommand.h" />
     <ClInclude Include="PipelineComponent\VolumetricComponent.h" />
     <ClInclude Include="RenderComponent\CBufferPool.h" />
+    <ClInclude Include="RenderComponent\BuddyTextureAllocator.h" />
     <ClInclude Include="RenderComponent\Utility\CommandSignature.h" />
     <ClInclude Include="RenderComponent\ComputeShader.h" />
     <ClInclude Include="RenderComponent\Utility\CullingMask.h" />
@@ -359,7 +361,7 @@
     <ClInclude Include="RenderComponent\TextureHeap.h" />
     <ClInclude Include="RenderComponent\TransitionBarrierBuffer.h" />
     <ClInclude Include="RenderComponent\UploadBuffer.h" />
-    <ClInclude Include="RenderComponent\Utility\BuddyAllocator.h" />
+    <ClInclude Include="RenderComponent\Utility\BinaryAllocator.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="ResourceManagement\AssetDatabase.h" />
     <ClInclude Include="ResourceManagement\AssetReference.h" />
