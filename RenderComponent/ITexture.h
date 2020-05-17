@@ -23,9 +23,8 @@ protected:
 	UINT mipCount = 1;
 	TextureDimension dimension;
 	ITexture();
-	~ITexture();
 public:
-	
+	virtual ~ITexture();
 	uint64_t GetResourceSize() const
 	{
 		return resourceSize;

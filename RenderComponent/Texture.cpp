@@ -556,6 +556,65 @@ TextureHeap* Texture::GenerateTextureFromFiles(
 
 Texture::Texture(
 	ID3D12Device* device,
+	UINT width,
+	UINT height,
+	UINT depth,
+	TextureDimension textureType,
+	UINT mipCount,
+	DXGI_FORMAT format,
+	TextureHeap* placedHeap,
+	size_t placedOffset
+)
+{
+	dimension = textureType;
+	if (textureType == TextureDimension::Cubemap)
+		depth = 6;
+	mFormat = format;
+	this->depthSlice = depth;
+	this->mWidth = width;
+	this->mHeight = height;
+	mipCount = Max<uint>(1, mipCount);
+	this->mipCount = mipCount;
+	D3D12_RESOURCE_DESC texDesc;
+	ZeroMemory(&texDesc, sizeof(D3D12_RESOURCE_DESC));
+	texDesc.Dimension = textureType == TextureDimension::Tex3D ? D3D12_RESOURCE_DIMENSION_TEXTURE3D : D3D12_RESOURCE_DIMENSION_TEXTURE2D;
+	texDesc.Alignment = 0;
+	texDesc.Width = width;
+	texDesc.Height = height;
+	texDesc.DepthOrArraySize = depth;
+	texDesc.MipLevels = mipCount;
+	texDesc.Format = mFormat;
+	texDesc.SampleDesc.Count = 1;
+	texDesc.SampleDesc.Quality = 0;
+	texDesc.Layout = D3D12_TEXTURE_LAYOUT_UNKNOWN;
+	texDesc.Flags = D3D12_RESOURCE_FLAG_NONE;
+	resourceSize = device->GetResourceAllocationInfo(
+		0, 1, &texDesc).SizeInBytes;
+	if (placedHeap)
+	{
+		ThrowIfFailed(device->CreatePlacedResource(
+			placedHeap->GetHeap(),
+			placedOffset,
+			&texDesc,
+			D3D12_RESOURCE_STATE_COMMON,//D3D12_RESOURCE_STATE_UNORDERED_ACCESS,
+			nullptr,
+			IID_PPV_ARGS(&Resource)));
+	}
+	else
+	{
+		ThrowIfFailed(device->CreateCommittedResource(
+			&CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+			D3D12_HEAP_FLAG_NONE,
+			&texDesc,
+			D3D12_RESOURCE_STATE_COMMON,//D3D12_RESOURCE_STATE_UNORDERED_ACCESS,
+			nullptr,
+			IID_PPV_ARGS(&Resource)));
+	}
+	BindSRVToHeap(Graphics::GetGlobalDescHeap(), GetGlobalDescIndex(), device);
+}
+
+Texture::Texture(
+	ID3D12Device* device,
 	const std::string& filePath,
 	TextureDimension type,
 	uint32_t maximumLoadMipmap,

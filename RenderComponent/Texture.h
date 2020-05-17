@@ -80,6 +80,18 @@ public:
 		TextureHeap* placedHeap = nullptr,
 		size_t placedOffset = 0
 	);
+	Texture(
+		ID3D12Device* device,
+		UINT width,
+		UINT height,
+		UINT depth,
+		TextureDimension textureType,
+		UINT mipCount,
+		DXGI_FORMAT format,
+		TextureHeap* placedHeap = nullptr,
+		size_t placedOffset = 0
+	);
+
 	//Sync Copy
 	Texture(
 		ID3D12Device* device,

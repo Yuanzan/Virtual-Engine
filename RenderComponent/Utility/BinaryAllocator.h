@@ -2,7 +2,6 @@
 #include <stdint.h>
 #include <vector>
 #include <unordered_map>
-#include <iostream>
 typedef uint32_t uint;
 typedef uint64_t uint64;
 
@@ -48,21 +47,11 @@ private:
 		uint& indexOffset);
 	void ReturnChunk(BinaryTreeNode* node);
 public:
-	///////////////////// Debug
-	void Test()
-	{
-		using namespace std;
-		cout << "All Node Count: " << usefulNodes.size() << endl;
-		for (uint i = 0; i < usefulNodes.size(); ++i)
-		{
-			cout << "Layer " << i << " count: " << usefulNodes[i].size() << endl;
-		}
-	}
-	///////////////////
+	size_t GetLayerCount() const { return usefulNodes.size(); }
 	bool TryAllocate(uint targetLevel, AllocatedChunkHandle& result);
 	void Return(AllocatedChunkHandle target);
 	BinaryAllocator(
 		uint32_t maximumLayer);
 	~BinaryAllocator();
 };
-using BuddyAllocHandle = BinaryAllocator::AllocatedChunkHandle;
+using BuddyAllocatorHandle = BinaryAllocator::AllocatedChunkHandle;
