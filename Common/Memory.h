@@ -28,6 +28,12 @@ inline void aligned_free(void* palignedmem)
 {
 	free(reinterpret_cast<void*>((static_cast<void**>(palignedmem))[-1]));
 }
+
+template <typename AllocFunc>
+inline constexpr void aligned_free(void* palignedmem, const AllocFunc& func)
+{
+	func(reinterpret_cast<void*>((static_cast<void**>(palignedmem))[-1]));
+}
 //allocFunc:: void* operator()(size_t)
 template <typename AllocFunc>
 inline constexpr void* aligned_malloc(size_t size, size_t alignment, const AllocFunc& allocFunc)

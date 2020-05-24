@@ -12,12 +12,8 @@ public:
 	struct BinaryTreeNode
 	{
 		int64_t vectorIndex;
-		uint64_t size;
-		uint64_t offset;
-		BinaryTreeNode* parentNode;
-		BinaryTreeNode* leftNode;
-		BinaryTreeNode* rightNode;
 		uint layer;
+		bool isLeft;
 	};
 	struct AllocatedChunkHandle
 	{
@@ -25,26 +21,9 @@ public:
 	private:
 		BinaryTreeNode* node;
 	public:
-		uint64_t GetSize() const
-		{
-			return node->size;
-		}
-		uint64_t GetOffset() const
-		{
-			return node->offset;
-		}
 	};
 private:
-	BinaryTreeNode* nodes;
-	uint allNodesCount;
 	std::vector<std::vector<BinaryTreeNode*>> usefulNodes;
-	BinaryTreeNode* SetTreeNode(
-		BinaryTreeNode* parentNode,
-		uint64_t size,
-		uint64_t offset,
-		uint layer,
-		uint layerCount,
-		uint& indexOffset);
 	void ReturnChunk(BinaryTreeNode* node);
 public:
 	size_t GetLayerCount() const { return usefulNodes.size(); }
